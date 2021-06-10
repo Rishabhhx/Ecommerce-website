@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Refresh" content="30">  
+<meta http-equiv="X-UA-Compatible" content="IE=edge">  
+<title>Untitled Document</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+<link href="css-matter/css/style.css" type="text/css" rel="stylesheet">
+<link href="css-matter/css/fonts.css" type="text/css" rel="stylesheet">
+<link href="css-matter/css/menu.css" type="text/css" rel="stylesheet">
+<link href="css-matter/css/responsive.css" type="text/css" rel="stylesheet">
+<link href="css-matter/css/animate.css" type="text/css" rel="stylesheet"> 
+<link href="css-matter/css/slider.css" type="text/css" rel="stylesheet"> 
+<link rel="shortcut icon" href="css-matter/images/favicon-icon.png" type="image/png">
+<script language="javascript" runat="server" src="css-matter/js/jquery.min.js"> </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+    
+  
+</head>
+<body  style=" background:url(css-matter/images/1190478.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;">    
+
+
+  
+           
+<div class="">
+  <div class="">
+<header>
+    <div >
+      <div class="" style="display:block;">
+     <span id="myBtn" data-toggle="modal" data-target="#myModal" style="cursor: pointer; background:transparent!important" ></span></div>
+
+    </div></header> 
+    </div>        </div> </div>
+ <!--modal-1-->
+     <div class="modal fade" id="myModal" role="dialog"  style="display:block;">
+    <div class="modal-dialog" >
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+         <h4 class="modal-title"><p> LOGIN </p></h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button></div>
+        <div class="modal-body">
+          <p><div class="form-container"> 
+ <label for="email"><b>USER ID</b></label>
+    <input type="text" placeholder="Enter User Id" name="email" autocomplete="off" required>
+    <label for="psw"><b>PASSWORD</b></label>
+    <input type="password" placeholder="Enter Password" autocomplete="off" name="psw" required>
+ <button type="submit" class="btn">LOGIN</button>
+         <p class="text-redskip" ><a href="index.html"> SKIP </a><br><br></p>
+          <p class="text-dark-grey"> If you'r not registered yet  <span><a href="#" class="product-link2"> Register </a> </span>    </p>
+           </div>
+</div>
+</p> </div>
+ </div>
+ </div>
+ <!--popup finish-->
+<script>
+var modal = document.getElementById('myModal');
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0];
+btn.onclick = function() {
+    modal.style.display = "block";}
+span.onclick = function() {
+    modal.style.display = "none";}
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";}}
+</script>
+ 
+
+
+</body>
+</html>
